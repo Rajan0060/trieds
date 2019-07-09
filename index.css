@@ -1,0 +1,45 @@
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: grey;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    text-decoration: black;
+}
+
+.submit-btn{
+    color: white; background: blue; border: 2px; border-radius: 6px;
+}
+
+section{
+    margin-top: 140px;
+}
+
+.commenter-details{
+    color: red;
+}
+
+.commenter-id, .commenter-name{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.comment{
+    font-size: 18px;
+    color: grey;    
+}
+
+.upvote-downvote{
+    margin-top: 18px;
+    font-size: 15px;    
+    color: red;
+    font-weight: 400;
+}
